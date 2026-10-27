@@ -35,3 +35,9 @@ The renderer uses Pillow, a shared palette and nearest-neighbor scaling. It expo
 ## Engineer's mug
 
 `assets/engineer-mug.png` is a cartoon coffee mug made with the imagegen CLI and `gpt-image-2`. Its yellow and red colors match the profile lettering; the inscription reads “Aspiring to be the World’s 2nd Best Engineer.” The compact profile displays it at 150 pixels wide, centered in the footer.
+
+## Research map
+
+`assets/research-map.mmd` is the Mermaid source for `assets/research-map.svg`. The map groups separate ongoing projects by research focus; its lines indicate categories, not runtime data flow or a single deployed architecture. The public summaries describe implementation focus and current evaluation stages while the source repositories remain private.
+
+The SVG was rendered with Mermaid 11.12.1 using plain SVG text labels, a 15px Arial/sans-serif font, 22px node spacing and 30px rank spacing. It is a local, static image and requires no external rendering service when visitors load the profile.

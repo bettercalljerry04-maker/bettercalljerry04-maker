@@ -18,15 +18,19 @@ I build models for **humanoid whole-body control** and **long-horizon industrial
   <img src="./assets/jerry-room-suit.gif" alt="Jerry in a suit works at his computer in a navy and magenta pixel-art room" width="420" />
 </p>
 
-### On my workbench
+### Selected work
 
-- **Policies & learning** · Hierarchical VLA / π0.5, TTT, HIL-SERL / RLT.
-- **Control & post-training** · Flow Reversal Steering, RTC Steering, RECAP / PiStar.
-- **World models** · Cosmos, multi-view consistency and memory through occlusions.
+Ongoing experiments in industrial embodied AI. Source code is currently private.
 
-*Projects are in progress. Demos and selected code will follow as they become ready.*
+<p align="center">
+  <img src="./assets/research-map.svg" alt="Research map: learning covers distillation, TTT and experience learning; control covers RTC Steering; world models cover action conditioning. These are separate areas of research." width="420" />
+</p>
 
-[Explore my repositories →](https://github.com/bettercalljerry04-maker?tab=repositories)
+- **RTC Steering** — Prototyping human-guided action corrections that stay aligned with asynchronous robot execution and subsequent policy predictions.
+- **VLA distillation** — Comparing π0.5 compression recipes through matched-budget offline evaluations and teacher-consistency checks.
+- **Temporal memory / TTT** — Stabilizing fast-weight updates and testing whether remembered observations influence action decisions.
+- **Experience learning** — Adapting RECAP, HIL-SERL and RLT pipelines, with early robot experiments and control/data-interface diagnostics.
+- **Robot world models** — Exploring Cosmos-based action-conditioned video generation, multi-view consistency and long-sequence drift.
 
 <p align="center">
   <img src="./assets/robot-rights-typing.gif" alt="Your robot has the right to remain stable. Exploring LLM, VLA, RL and World Models. Building one experiment at a time." width="680" />

@@ -1,0 +1,12 @@
+flowchart LR
+    A["Embodied AI"] --- L["LEARNING<br/>Distillation · TTT<br/>Experience learning"]
+    A --- C["CONTROL<br/>RTC Steering"]
+    A --- W["WORLD MODELS<br/>Action conditioning"]
+    classDef core fill:#172238,stroke:#617393,color:#f0f4fc,stroke-width:1.5px
+    classDef learning fill:#102b35,stroke:#53cbbb,color:#e4fffa,stroke-width:1px
+    classDef control fill:#30213b,stroke:#df73c4,color:#fff0fc,stroke-width:1px
+    classDef world fill:#302b20,stroke:#e4c16c,color:#fff7df,stroke-width:1px
+    class A core
+    class L learning
+    class C control
+    class W world
