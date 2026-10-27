@@ -10,7 +10,7 @@ python3 tools/generate_visuals.py
 
 The script uses Pillow, PyGObject, GdkPixbuf with an SVG loader, and DejaVu Sans fonts. On Ubuntu these are provided by `python3-pil`, `python3-gi`, `gir1.2-gdkpixbuf-2.0`, `librsvg2-common`, and `fonts-dejavu-core`.
 
-`assets/banner.svg` is the editable source for the header's static layout. The header embeds the yellow/red Better Call Jerry logo on the left and the moving arm on the right. The typing animation opens with “Your robot has the right to remain stable.” Each animation uses a stable palette and runs locally from the repository; no API keys or scheduled workflows are needed for display or animation rendering.
+`assets/banner.svg` is the editable source for the header's static layout. The header (`assets/better-call-jerry-hero.gif`) embeds the yellow/red Better Call Jerry logo on the left and the moving arm on the right. The typing animation (`assets/robot-rights-typing.gif`) opens with “Your robot has the right to remain stable.” Each animation uses a stable palette and runs locally from the repository; no API keys or scheduled workflows are needed for display or animation rendering.
 
 ## Better Call Jerry logo
 

@@ -157,7 +157,7 @@ def make_hero() -> None:
   </g>
 </svg>'''
         frames.append(svg_image(background + scene))
-    save_gif("robot-lab.gif", frames, 80)
+    save_gif("better-call-jerry-hero.gif", frames, 80)
 
 
 def make_typing() -> None:
@@ -187,7 +187,7 @@ def make_typing() -> None:
         for count in range(1, len(following) + 1):
             append(following[:count], 55)
         append(following, 1500)
-    save_gif("typing.gif", frames, durations)
+    save_gif("robot-rights-typing.gif", frames, durations)
 
 
 def make_buddy() -> None:
