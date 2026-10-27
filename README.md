@@ -11,7 +11,7 @@
 
 ### Hi, I'm Jerry_codemen 👋
 
-I'm an developer working on **embodied AI and robotics algorithms** at **Standard Robots**.
+I'm a developer working on **embodied AI and robotics algorithms** at **Standard Robots**.
 
 I'm interested in how language, learning, and world models can help robots understand and act in the physical world.
 
