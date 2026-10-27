@@ -22,7 +22,7 @@ The header generator extracts transparency from this black-backed logo, so the l
 
 ## Jerry's pixel room
 
-`assets/jerry-room-base.png` is a still adaptation of the room GIF supplied by the profile owner. The base was edited with the imagegen CLI and `gpt-image-2`, then normalized to a 240×135 pixel grid. Jerry, Tom collectibles, cheese, pink neon balance scales, a red telephone and lawyer's briefcases personalize the reference room while preserving its dark navy and magenta atmosphere.
+`assets/jerry-room-suit-base.png` is a still adaptation of the room GIF supplied by the profile owner. The base was edited with the imagegen CLI and `gpt-image-2`, then normalized to a 240×135 pixel grid. Jerry, Tom collectibles, cheese, pink neon balance scales, a red telephone and lawyer's briefcases personalize the reference room while preserving its dark navy and magenta atmosphere. The latest edit dresses Jerry in a charcoal suit, ivory shirt and burgundy tie. Only the outfit region was composited into the existing base, preserving the surrounding room and animation coordinates.
 
 Rebuild its looping GIF from the saved base, without an API call:
 
@@ -30,8 +30,8 @@ Rebuild its looping GIF from the saved base, without an API call:
 python3 tools/animate_room.py
 ```
 
-The renderer uses Pillow, a shared palette and nearest-neighbor scaling. It exports `assets/jerry-room.gif` at 960×540, with a still preview in `assets/jerry-room-still.png`. The loop lasts 4.9 seconds, matching the reference's 49 frames at 100 ms per frame.
+The renderer uses Pillow, a shared palette and nearest-neighbor scaling. It exports `assets/jerry-room-suit.gif` at 960×540, with a still preview in `assets/jerry-room-suit-still.png`. The loop lasts 4.9 seconds, matching the reference's 49 frames at 100 ms per frame. The profile displays it at a maximum width of 480 pixels directly below the introduction; smaller screens scale it to fit. The original room assets remain available in the repository.
 
 ## Engineer's mug
 
-`assets/engineer-mug.png` is a cartoon coffee mug made with the imagegen CLI and `gpt-image-2`. Its yellow and red colors match the profile lettering; the inscription reads “Aspiring to be the World’s 2nd Best Engineer.” The profile displays it at 320 pixels wide beneath the workbench section.
+`assets/engineer-mug.png` is a cartoon coffee mug made with the imagegen CLI and `gpt-image-2`. Its yellow and red colors match the profile lettering; the inscription reads “Aspiring to be the World’s 2nd Best Engineer.” The compact profile displays it at 180 pixels wide, centered in the footer.

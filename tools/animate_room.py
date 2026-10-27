@@ -237,8 +237,8 @@ def write_guide(base: Image.Image, regions: dict, output: Path) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input", type=Path, default=ROOT / "assets/jerry-room-base.png")
-    parser.add_argument("--output", type=Path, default=ROOT / "assets/jerry-room.gif")
+    parser.add_argument("--input", type=Path, default=ROOT / "assets/jerry-room-suit-base.png")
+    parser.add_argument("--output", type=Path, default=ROOT / "assets/jerry-room-suit.gif")
     parser.add_argument("--config", type=Path, help="JSON overrides for DEFAULT_REGIONS")
     parser.add_argument("--guide", type=Path, help="Write a region preview only")
     args = parser.parse_args()
