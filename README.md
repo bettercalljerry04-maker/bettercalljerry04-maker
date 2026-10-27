@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="./assets/better-call-jerry-hero.gif" alt="Better Call Jerry — yellow and red title beside an animated robot arm" width="100%" />
-</p>
-
-<p align="center">
   <img src="./assets/robot-rights-typing.gif" alt="Your robot has the right to remain stable. Exploring LLM, VLA, RL and World Models. Building one experiment at a time." width="100%" />
 </p>
 
