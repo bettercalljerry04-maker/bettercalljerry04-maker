@@ -50,6 +50,10 @@ I'm working on **hierarchical architectures** and **VLA policies (including π0.
 *These projects are in progress, with evaluation and iteration ongoing. I'm organizing write-ups and demos, and plan to share selected code as it becomes ready.*
 
 <p align="center">
+  <img src="./assets/engineer-mug.png" alt="A cartoon mug: Aspiring to be the World’s 2nd Best Engineer" width="320" />
+</p>
+
+<p align="center">
   <img src="./assets/robot-arcade.gif" alt="An original pixel robot runs past LLM, VLA, RL and WM signs — a little robot, a lot to learn" width="100%" />
 </p>
 

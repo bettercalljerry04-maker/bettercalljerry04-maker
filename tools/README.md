@@ -31,3 +31,7 @@ python3 tools/animate_room.py
 ```
 
 The renderer uses Pillow, a shared palette and nearest-neighbor scaling. It exports `assets/jerry-room.gif` at 960×540, with a still preview in `assets/jerry-room-still.png`. The loop lasts 4.9 seconds, matching the reference's 49 frames at 100 ms per frame.
+
+## Engineer's mug
+
+`assets/engineer-mug.png` is a cartoon coffee mug made with the imagegen CLI and `gpt-image-2`. Its yellow and red colors match the profile lettering; the inscription reads “Aspiring to be the World’s 2nd Best Engineer.” The profile displays it at 320 pixels wide beneath the workbench section.
