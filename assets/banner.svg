@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title description">
+  <title id="title">Jerry_codemen — Embodied AI and Robotics</title>
+  <desc id="description">A dark blue robotics workbench with a mint green articulated arm, a dotted motion path, and the name Jerry_codemen.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101f30"/>
+      <stop offset="1" stop-color="#090f1b"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#4fe2be" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#4fe2be" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="arm" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#abf7dc"/>
+      <stop offset="1" stop-color="#51c8b5"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#c0d7e8" stroke-opacity=".055"/>
+    </pattern>
+    <clipPath id="rounded"><rect width="1200" height="400" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="400" fill="url(#background)"/>
+    <rect x="640" width="560" height="400" fill="url(#grid)"/>
+    <ellipse cx="937" cy="198" rx="295" ry="260" fill="url(#halo)"/>
+
+    <g font-family="Arial, Helvetica, sans-serif">
+      <rect x="52" y="48" width="4" height="16" rx="2" fill="#82e8cb"/>
+      <text x="70" y="61" fill="#a7b7c9" font-size="14" letter-spacing="3">EMBODIED AI / ROBOTICS</text>
+      <text x="50" y="173" fill="#92efd0" font-size="66" font-weight="700" letter-spacing="-2">Jerry_codemen</text>
+      <text x="54" y="227" fill="#f2f5f9" font-size="27">Connecting language,</text>
+      <text x="54" y="266" fill="#f2f5f9" font-size="27">learning, and action.</text>
+      <path d="M54 333H106" stroke="#6ddabc" stroke-width="2"/>
+      <text x="120" y="338" fill="#a7b7c9" font-size="15" letter-spacing="3">LLM / VLA / RL / WM</text>
+    </g>
+
+    <g fill="none" stroke="#344a5d" stroke-width="1.2">
+      <path d="M710 294L926 373L1144 294L928 216Z"/>
+      <path d="M754 310L971 231M798 326L1014 247M841 342L1057 263M884 358L1101 279" opacity=".5"/>
+      <path d="M754 278L971 357M797 263L1014 342M841 247L1057 326M884 231L1100 310" opacity=".5"/>
+      <path d="M713 86V67H732M1112 67H1131V86M713 333V352H732M1112 352H1131V333" stroke="#729185" opacity=".55"/>
+    </g>
+
+    <path d="M789 242C785 131 940 90 1024 185" fill="none" stroke="#b8a8ef" stroke-width="2" stroke-dasharray="5 8" opacity=".65"/>
+    <circle cx="789" cy="242" r="4" fill="#b8a8ef"/>
+    <circle cx="1024" cy="185" r="5" fill="#b8a8ef"/>
+
+    <ellipse cx="861" cy="307" rx="65" ry="19" fill="#060d16" opacity=".55"/>
+    <path d="M814 283L858 267L902 283V301L858 317L814 301Z" fill="#1d3342" stroke="#5b847d"/>
+    <path d="M814 283L858 299L902 283M858 299V317" fill="none" stroke="#5b847d"/>
+    <path d="M838 285V252Q858 237 878 252V285Q859 299 838 285" fill="#3e655f" stroke="#83c6b2" stroke-width="1.5"/>
+
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <path d="M858 257L818 173L923 119L988 173" fill="none" stroke="#07151c" stroke-width="39"/>
+      <path d="M858 257L818 173" fill="none" stroke="url(#arm)" stroke-width="27"/>
+      <path d="M818 173L923 119" fill="none" stroke="url(#arm)" stroke-width="25"/>
+      <path d="M923 119L988 173" fill="none" stroke="url(#arm)" stroke-width="21"/>
+      <path d="M849 244L826 194M841 167L902 135M939 136L973 164" fill="none" stroke="#dcfff0" stroke-opacity=".45" stroke-width="3"/>
+    </g>
+
+    <g fill="#152d36" stroke="#adf1d9" stroke-width="3">
+      <circle cx="858" cy="257" r="18"/>
+      <circle cx="818" cy="173" r="21"/>
+      <circle cx="923" cy="119" r="18"/>
+      <circle cx="988" cy="173" r="13"/>
+    </g>
+    <g fill="#80d8bd">
+      <circle cx="858" cy="257" r="5"/>
+      <circle cx="818" cy="173" r="6"/>
+      <circle cx="923" cy="119" r="5"/>
+      <circle cx="988" cy="173" r="4"/>
+    </g>
+
+    <g transform="translate(988 173) rotate(39)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 0H31M31 -13V13M31 -13H48V-5M31 13H48V5" stroke="#b9cddd" stroke-width="7"/>
+    </g>
+
+    <path d="M1003 252L1026 243L1049 252V278L1026 287L1003 278Z" fill="#33314b" stroke="#bbabe9" stroke-width="1.5"/>
+    <path d="M1003 252L1026 261L1049 252M1026 261V287" fill="none" stroke="#bbabe9"/>
+    <ellipse cx="1026" cy="291" rx="38" ry="13" fill="none" stroke="#b8a8ef" stroke-opacity=".4" stroke-dasharray="3 5"/>
+  </g>
+</svg>
