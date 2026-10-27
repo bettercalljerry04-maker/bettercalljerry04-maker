@@ -11,6 +11,11 @@ My core experience is in **reinforcement learning for dexterous hands**. Today, 
 **What I build for:** practical deployment, measurable **ROI**, **reliability**, and **safety**.
 
 <p align="center">
+  <img src="./assets/robot-arcade.gif" alt="An original pixel robot runs past LLM, VLA, RL and WM signs — a little robot, a lot to learn" width="100%" />
+</p>
+
+<p align="center"><em>Learning by building. Sharing along the way.</em></p>
+<p align="center">
   <img src="./assets/robot-rights-typing.gif" alt="Your robot has the right to remain stable. Exploring LLM, VLA, RL and World Models. Building one experiment at a time." width="100%" />
 </p>
 
@@ -48,8 +53,4 @@ I'm working on **hierarchical architectures** and **VLA policies (including π0.
   <img src="./assets/engineer-mug.png" alt="A cartoon mug: Aspiring to be the World’s 2nd Best Engineer" width="320" />
 </p>
 
-<p align="center">
-  <img src="./assets/robot-arcade.gif" alt="An original pixel robot runs past LLM, VLA, RL and WM signs — a little robot, a lot to learn" width="100%" />
-</p>
 
-<p align="center"><em>Learning by building. Sharing along the way.</em></p>
