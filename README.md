@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./assets/robot-lab.gif" alt="Better Call Jerry — yellow and red title beside an animated robot arm" width="100%" />
+  <img src="./assets/robot-lab.gif?v=20261027-jerry" alt="Better Call Jerry — yellow and red title beside an animated robot arm" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/typing.gif" alt="Your robot has the right to remain stable. Exploring LLM, VLA, RL and World Models. Building one experiment at a time." width="100%" />
+  <img src="./assets/typing.gif?v=20261027-stable" alt="Your robot has the right to remain stable. Exploring LLM, VLA, RL and World Models. Building one experiment at a time." width="100%" />
 </p>
 
 <p align="center">
