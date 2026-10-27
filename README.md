@@ -1,3 +1,15 @@
+### Hi, I'm Jerry_codemen 👋
+
+**A passionate AI algorithm engineer from Shenzhen, China.**
+
+<img align="right" src="./assets/robot-buddy.gif" alt="A little robot waving hello and blinking" width="160" />
+
+I work on **embodied AI at Standard Robots**, with a focus on **humanoid robots**. I'm developing in-house models for **whole-body control** and **long-horizon tasks in industrial settings**.
+
+My core experience is in **reinforcement learning for dexterous hands**. Today, I'm exploring how **LLMs, VLAs, reinforcement learning, and world models** can work together to build useful industrial robots.
+
+**What I build for:** practical deployment, measurable **ROI**, **reliability**, and **safety**.
+
 <p align="center">
   <img src="./assets/robot-rights-typing.gif" alt="Your robot has the right to remain stable. Exploring LLM, VLA, RL and World Models. Building one experiment at a time." width="100%" />
 </p>
@@ -13,26 +25,13 @@
   <img src="./assets/badge-wm.svg" alt="WM" width="80" />
 </p>
 
-### Hi, I'm Jerry_codemen 👋
-
-**A passionate AI algorithm engineer from Shenzhen, China.**
-
-<img align="right" src="./assets/robot-buddy.gif" alt="A little robot waving hello and blinking" width="160" />
-
-I work on **embodied AI at Standard Robots**, with a focus on **humanoid robots**. I'm developing in-house models for **whole-body control** and **long-horizon tasks in industrial settings**.
-
-My core experience is in **reinforcement learning for dexterous hands**. Today, I'm exploring how **LLMs, VLAs, reinforcement learning, and world models** can work together to build useful industrial robots.
-
-**What I build for:** practical deployment, measurable **ROI**, **reliability**, and **safety**.
 
 <br clear="both" />
 
-<p align="center">
-  <img src="./assets/better-call-jerry-logo.png" alt="Better Call Jerry — yellow brush lettering and scales with Jerry in red script" width="480" />
-</p>
+
 
 <p align="center">
-  <img src="./assets/jerry-room.gif" alt="Jerry works at a computer in a dark pixel-art room with pink neon scales, Tom collectibles, cheese, and a lawyer's briefcase" width="100%" />
+  <img src="./assets/jerry-room.gif" alt="Jerry works at a computer in a dark pixel-art room with pink neon scales, Tom collectibles, cheese, and a lawyer's briefcase" width="80%" />
 </p>
 
 ### On my workbench 🧪
