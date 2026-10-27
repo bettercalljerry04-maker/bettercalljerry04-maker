@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/robot-lab.gif" alt="Jerry_codemen — an illustrated robot arm moves a cube across a robotics workbench" width="100%" />
+  <img src="./assets/robot-lab.gif" alt="Better call Jerry — an illustrated robot arm moves a cube across a robotics workbench" width="100%" />
 </p>
 
 <p align="center">
