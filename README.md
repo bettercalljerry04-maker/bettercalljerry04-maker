@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="./assets/better-call-jerry-logo.png" alt="Better Call Jerry — yellow brush lettering and scales with Jerry in red script" width="480" />
+</p>
+
+<p align="center">
   <img src="./assets/robot-lab.gif" alt="Better call Jerry — an illustrated robot arm moves a cube across a robotics workbench" width="100%" />
 </p>
 
