@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="./assets/better-call-jerry-logo.png" alt="Better Call Jerry — yellow brush lettering and scales with Jerry in red script" width="480" />
-</p>
-
-<p align="center">
   <img src="./assets/robot-lab.gif" alt="Better call Jerry — an illustrated robot arm moves a cube across a robotics workbench" width="100%" />
 </p>
 
@@ -19,6 +15,10 @@
   <img src="./assets/badge-vla.svg" alt="VLA" width="80" />
   <img src="./assets/badge-rl.svg" alt="RL" width="80" />
   <img src="./assets/badge-wm.svg" alt="WM" width="80" />
+</p>
+
+<p align="center">
+  <img src="./assets/better-call-jerry-logo.png" alt="Better Call Jerry — yellow brush lettering and scales with Jerry in red script" width="480" />
 </p>
 
 ### Hi, I'm Jerry_codemen 👋
