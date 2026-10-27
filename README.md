@@ -17,10 +17,6 @@
   <img src="./assets/badge-wm.svg" alt="WM" width="80" />
 </p>
 
-<p align="center">
-  <img src="./assets/better-call-jerry-logo.png" alt="Better Call Jerry — yellow brush lettering and scales with Jerry in red script" width="480" />
-</p>
-
 ### Hi, I'm Jerry_codemen 👋
 
 **A passionate AI algorithm engineer from Shenzhen, China.**
@@ -34,6 +30,12 @@ My core experience is in **reinforcement learning for dexterous hands**. Today, 
 **What I build for:** practical deployment, measurable **ROI**, **reliability**, and **safety**.
 
 <br clear="both" />
+
+
+<p align="center">
+  <img src="./assets/better-call-jerry-logo.png" alt="Better Call Jerry — yellow brush lettering and scales with Jerry in red script" width="480" />
+</p>
+
 
 ### On my workbench 🧪
 
