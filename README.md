@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./assets/robot-lab.gif" alt="Better call Jerry — an illustrated robot arm moves a cube across a robotics workbench" width="100%" />
+  <img src="./assets/robot-lab.gif" alt="Better Call Jerry — yellow and red title beside an animated robot arm" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/typing.gif" alt="Language. Learning. Action. Exploring LLM, VLA, RL and World Models. Building one experiment at a time." width="100%" />
+  <img src="./assets/typing.gif" alt="Your robot has the right to remain stable. Exploring LLM, VLA, RL and World Models. Building one experiment at a time." width="100%" />
 </p>
 
 <p align="center">
@@ -31,11 +31,13 @@ My core experience is in **reinforcement learning for dexterous hands**. Today, 
 
 <br clear="both" />
 
-
 <p align="center">
   <img src="./assets/better-call-jerry-logo.png" alt="Better Call Jerry — yellow brush lettering and scales with Jerry in red script" width="480" />
 </p>
 
+<p align="center">
+  <img src="./assets/jerry-room.gif" alt="Jerry works at a computer in a dark pixel-art room with pink neon scales, Tom collectibles, cheese, and a lawyer's briefcase" width="100%" />
+</p>
 
 ### On my workbench 🧪
 

@@ -6,8 +6,10 @@ Run from any directory: python3 tools/generate_visuals.py
 
 from __future__ import annotations
 
+import base64
 import io
 import math
+import re
 from pathlib import Path
 
 import gi
@@ -88,8 +90,33 @@ def arm_pose(t: float) -> tuple[float, float, float, float, float]:
     raise ValueError(t)
 
 
+def hero_logo(source: str) -> str:
+    """Embed the red/yellow logo without its original black matte.
+
+    Both flat logo colors have a 255-valued channel. Its maximum channel thus
+    gives edge coverage; unpremultiplying preserves smooth edges on navy.
+    """
+    logo = Image.open(ASSETS / "better-call-jerry-logo.png").convert("RGB")
+    transparent = Image.new("RGBA", logo.size)
+    transparent.putdata([
+        (round(red * 255 / alpha), round(green * 255 / alpha), round(blue * 255 / alpha), alpha)
+        if (alpha := max(red, green, blue)) else (0, 0, 0, 0)
+        for red, green, blue in logo.getdata()
+    ])
+    transparent = transparent.crop(transparent.getbbox())
+    buffer = io.BytesIO()
+    transparent.save(buffer, format="PNG", optimize=True)
+    encoded = base64.b64encode(buffer.getvalue()).decode("ascii")
+    element = f'''<!-- profile-logo:start -->
+    <image x="40" y="50" width="630" height="300" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,{encoded}"/>
+    <!-- profile-logo:end -->'''
+    return re.sub(r"<!-- profile-logo:start -->.*?<!-- profile-logo:end -->", element, source, flags=re.DOTALL)
+
+
 def make_hero() -> None:
-    original = (ASSETS / "banner.svg").read_text()
+    banner = ASSETS / "banner.svg"
+    original = hero_logo(banner.read_text())
+    banner.write_text(original)
     background = original.split('    <path d="M789 242')[0]
     background = background.replace('width="1200" height="400" viewBox', 'width="960" height="320" viewBox')
     frames = []
@@ -135,7 +162,7 @@ def make_hero() -> None:
 
 def make_typing() -> None:
     phrases = [
-        "Language. Learning. Action.",
+        "Your robot has the right to remain stable.",
         "Exploring LLM + VLA + RL + WM.",
         "Building one experiment at a time.",
     ]
